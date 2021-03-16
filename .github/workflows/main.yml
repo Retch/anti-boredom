@@ -41,7 +41,9 @@ jobs:
         run: |
           cp -r dist/ /tmp/dist
           rm -rf *
-          git merge master
+          git add .
+          git stash
+          git pull
           cp -r /tmp/dist/* .
 
       - name: Verbose Output
