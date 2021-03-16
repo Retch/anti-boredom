@@ -39,6 +39,7 @@ jobs:
 
       - name: Copy
         run: |
+          rm -rf docs
           cp -r dist/ docs/
           rm -rf dist
 
