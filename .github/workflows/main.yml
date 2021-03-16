@@ -41,7 +41,9 @@ jobs:
         run: |
           cp -r dist/ /tmp/dist
           rm -rf *
+          ls
           ls -l /tmp/dist/
+          pwd
 
 
       - name: Delete all files excluding dist directory
