@@ -1,5 +1,5 @@
 <template>
-  <div class="about" style="margin: 1rem; max-width: 500px">
+  <div class="about" style="margin: 1rem auto; max-width: 500px">
     <p>
       If you are bored and have no idea what to do, just press the button. Magically, an
       activity will be suggested to you and the chart will show how many people should
