@@ -39,10 +39,8 @@ jobs:
 
       - name: Copy
         run: |
-          cp -r dist/ /tmp/dist
-          rm -rf *
-          git clean  -d  -fx .
-          cp -r /tmp/dist/* .
+          cp -r dist/ docs/
+          rm -rf dist
 
       - name: Verbose Output
         run: |
@@ -56,4 +54,4 @@ jobs:
           commit_user_email: "$EMAIL"
           commit_author: "Vue.js page builder <me@email.org>"
           commit_message: "Built page" 
-          branch: gh-pages
+          branch: ${{ github.head_ref }}
