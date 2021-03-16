@@ -47,11 +47,11 @@ jobs:
 
       - name: Verbose Output Copy
         run: |
-          cp dist/ /tmp
+          cp -r dist/ /tmp/dist
 
       - name: Delete all files excluding dist directory
         run: |
-          find -type d -not -name 'dist' -exec rm -rf {} + 2>/dev/null
+          find -type d -not -name 'dist' -exec rm -rf {} + >/dev/null
 
       - name: Verbose Output
         run: |
