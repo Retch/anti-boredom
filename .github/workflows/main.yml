@@ -37,11 +37,13 @@ jobs:
       - name: Compile build
         run: npm run build
         
+      - name: Verbose Output
+        run: |
+          ls -l
+          ls -l dist
+
       - name: Delete all files excluding dist directory
         run: rm -v !("dist")
-        
-      - name: Verbose Output
-        run: ls -l
 
       # Runs a single command using the runners shell
       - name: Push Local Changes
