@@ -1,3 +1,4 @@
 module.exports = {
-    publicPath: '/anti-boredom/'
+    publicPath: '/anti-boredom/',
+    outputDir: 'docs'
   }
