@@ -40,10 +40,16 @@ jobs:
       - name: Verbose Output
         run: |
           ls -l
-          ls -l dist
 
       - name: Delete all files excluding dist directory
-        run: rm -v !("dist")
+        run: |
+          find -maxdepth 1 -type f -delete
+          find -type d -not -name 'dist' -exec rm -rf {} +
+
+      - name: Verbose Output
+        run: |
+          ls -l
+          ls -l dist
 
       # Runs a single command using the runners shell
       - name: Push Local Changes
