@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(t,e,a){"use strict";a.r(e);var c=a("7a23"),n={class:"about",style:{margin:"1rem"}},o=Object(c["g"])("p",null,[Object(c["f"])(" Just a little App which consumes the API from "),Object(c["g"])("a",{href:"https://www.boredapi.com"},"www.boredapi.com"),Object(c["f"])(" and shows the data in a fancy way. ")],-1);function s(t,e){return Object(c["p"])(),Object(c["d"])("div",n,[o])}const w={};w.render=s;e["default"]=w}}]);
-//# sourceMappingURL=about.be1b1c17.js.map
