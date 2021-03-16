@@ -51,5 +51,3 @@ jobs:
           commit_author: "Vue.js page builder <me@email.org>"
           commit_message: "Built page" 
           branch: [ gh-pages ]
-
-          echo test, and deploy your project.
