@@ -41,19 +41,17 @@ jobs:
         run: |
           cp -r dist/ /tmp/dist
           rm -rf *
-          ls
-          ls -l /tmp/dist/
+          cp -r /tmp/dist/* .
           pwd
 
+      - name: Verbose Output
+        run: |
+          ls -l
 
       - name: Delete all files excluding dist directory
         run: |
           find -type d -not -name 'dist' -exec rm -rf {} + >/dev/null
 
-      - name: Verbose Output
-        run: |
-          ls -l
-          ls -l dist
 
       # Runs a single command using the runners shell
       - name: Push Local Changes
