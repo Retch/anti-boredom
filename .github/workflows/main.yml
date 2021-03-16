@@ -32,7 +32,7 @@ jobs:
           node -v
           
       - name: Install dependencies
-        run: npm install
+        run: npm upgrade
 
       - name: Compile build
         run: npm run build
