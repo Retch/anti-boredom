@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Card style="width: 25rem; margin-bottom: 2em">
+  <div class="">
+    <Card style="width: 25rem; background-color: #b2ebf2" class="p-ripple" v-ripple>
       <template #title> {{ heading }} </template>
       <template #content>
         <p>{{ text }}</p>
@@ -18,7 +18,7 @@ export default defineComponent({
   },
   data() {
     return {
-      heading: "Activity",
+      heading: "You could do that",
     };
   },
 });

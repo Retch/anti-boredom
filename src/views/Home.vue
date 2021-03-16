@@ -1,13 +1,20 @@
 <template>
   <div>
-    <Activity :text="activitytext" />
-    <Button label="I'm bored" @click="fetchActivity()" />
+    <Activity
+      class="p-d-flex p-jc-center"
+      :text="activitytext"
+      style="margin-bottom: 2rem"
+    />
+    <Button label="I'm bored" @click="fetchActivity()" style="margin-bottom: 10vh" />
 
     <InformationChart
       :participants="activityparticipants"
       :price="activityprice"
       :accessibility="activityaccessibility"
       :key="componentKey"
+      style="max-width: 47rem; background-color: #b2ebf2; padding: 0.5rem"
+      class="p-d-block p-mx-auto p-card p-component p-ripple"
+      v-ripple
     />
   </div>
 </template>
