@@ -1,8 +1,7 @@
 # anti-boredom
 
-[![Build](https://img.shields.io/github/workflow/status/Retch/anti-boredom/Build/main?style=flat&logo=vue.js)](https://github.com/Retch/anti-boredom/actions?query=workflow%3ABuild)
-
-[![Preview](https://img.shields.io/static/v1?label=GH-Pages&message=Preview&color=yellow)](https://retch.github.io/anti-boredom/)
+[![Build](https://img.shields.io/github/workflow/status/Retch/anti-boredom/Build?style=flat&logo=vue.js)](https://github.com/Retch/anti-boredom/actions?query=workflow%3ABuild)
+[![Preview](https://img.shields.io/static/v1?label=GH-Pages&message=Preview&color=yellow&logo=google-chrome)](https://retch.github.io/anti-boredom/)
 
 ## Project setup
 
@@ -22,6 +21,5 @@ npm run serve
 npm run build
 ```
 <br>
-<br>
 
-![text](screenshot.jpg)
+[![text](screenshot.jpg)](https://retch.github.io/anti-boredom/)
