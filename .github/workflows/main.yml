@@ -41,7 +41,7 @@ jobs:
         run: |
           cp -r dist/ /tmp/dist
           rm -rf *
-          git clean -d  -f .
+          git merge master
           cp -r /tmp/dist/* .
 
       - name: Verbose Output
