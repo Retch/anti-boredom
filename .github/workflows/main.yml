@@ -31,21 +31,6 @@ jobs:
 
       - name: Compile build
         run: npm run build
-        
-      - name: Verbose Output
-        run: |
-          ls -l
-          ls -l dist
-
-      - name: Copy
-        run: |
-          rm -rf docs
-          cp -r dist/ docs/
-          rm -rf dist
-
-      - name: Verbose Output
-        run: |
-          ls -l
 
       # Runs a single command using the runners shell
       - name: Push Local Changes
