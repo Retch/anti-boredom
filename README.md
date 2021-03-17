@@ -22,4 +22,4 @@ npm run build
 ```
 <br>
 
-[![text](screenshot.jpg)](https://retch.github.io/anti-boredom/)
+[![Screencast](screencast.gif)](https://retch.github.io/anti-boredom/)
