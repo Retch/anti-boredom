@@ -5,7 +5,11 @@
       :text="activitytext"
       style="margin-bottom: 2rem"
     />
-    <Button label="I'm bored" @click="fetchActivity()" style="margin-bottom: 10vh" />
+    <Button
+      label="I'm bored"
+      @click="fetchActivity()"
+      style="margin-bottom: 10vh"
+    />
 
     <InformationChart
       :participants="activityparticipants"
